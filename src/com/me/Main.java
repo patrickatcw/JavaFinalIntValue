@@ -33,6 +33,16 @@ public class Main {
         //one.instanceNumber = 4;
         //this CANNOT be done
 
+        System.out.println("=========================================");
+
+        //step 7 an example of final value from Java Math library
+        //constructors are private in created math class
+        //and class is marked final to prevent sub-classes from being created
+        //could never extend Math class
+        System.out.println(Math.PI);
+        //result;
+        //3.141592653589793
+
     }
 
 }
